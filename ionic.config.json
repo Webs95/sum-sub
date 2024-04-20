@@ -1,0 +1,7 @@
+{
+  "name": "sumsub",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

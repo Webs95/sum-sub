@@ -38,6 +38,7 @@
     "@angular/compiler-cli": "^17.0.2",
     "@angular/language-service": "^17.0.2",
     "@ionic/angular-toolkit": "^11.0.1",
+    "@sumsub/cordova-idensic-mobile-sdk-plugin": "^1.31.0",
     "@types/jasmine": "~5.1.0",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
@@ -54,5 +55,10 @@
     "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.2.2"
   },
-  "description": "An Ionic project"
+  "description": "An Ionic project",
+  "cordova": {
+    "plugins": {
+      "cordova-idensic-mobile-sdk-plugin": {}
+    }
+  }
 }

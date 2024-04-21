@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+// import { SNSMobileSDK } from '@sumsub/cordova-idensic-mobile-sdk-plugin';
 
 @Component({
   selector: 'app-home',
@@ -8,5 +9,6 @@ import { Component } from '@angular/core';
 export class HomePage {
 
   constructor() {}
+
 
 }
